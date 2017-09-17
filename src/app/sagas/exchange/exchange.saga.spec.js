@@ -13,29 +13,6 @@ import {
 
 import reducer from '../../app.reducer';
 
-const fakeState = {
-  app: {
-    error: null,
-    modal: {}
-  },
-  currencies: [
-    {
-      code: 'USD',
-      exchangeRates: { EUR: 0.5 }
-    }
-  ],
-  wallets: {
-    USD: {
-      code: 'USD',
-      amount: 5000
-    }
-  },
-  exchange: {
-    processing: false,
-    totalExchanged: 0
-  }
-};
-
 describe('Exchange saga', () => {
   it('exchanges currency', () => {
     const initialState = {
