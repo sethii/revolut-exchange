@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Spinner component renders spinner 1`] = `
+.glamor-1 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: white;
+  opacity: 0.6;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  -webkit-animation: animation_1db0cce 2.0s infinite ease-in-out;
+  animation: animation_1db0cce 2.0s infinite ease-in-out;
+}
+
+.glamor-7 {
+  background-color: #048bf2;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.glamor-5 {
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+
+.glamor-3 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: white;
+  opacity: 0.6;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  -webkit-animation: animation_1db0cce 2.0s infinite ease-in-out;
+  animation: animation_1db0cce 2.0s infinite ease-in-out;
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+<div
+  className="glamor-6 glamor-7"
+>
+  <div
+    className="glamor-4 glamor-5"
+  >
+    <div
+      className="glamor-0 glamor-1"
+    />
+    <div
+      className="glamor-2 glamor-3"
+    />
+  </div>
+</div>
+`;

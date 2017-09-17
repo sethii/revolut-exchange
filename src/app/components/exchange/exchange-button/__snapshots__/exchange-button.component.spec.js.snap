@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Exchange button component renders exchange button 1`] = `
+.glamor-1 {
+  border: none;
+  border-radius: 25px;
+  color: white;
+  background-color: rgba(247, 0, 135, 1);
+  width: 600px;
+  font-size: 18px;
+  padding: 20px 10px;
+}
+
+.glamor-1:hover {
+  cursor: pointer;
+}
+
+.glamor-1:disabled {
+  background-color: rgba(247, 0, 135, 0.28);
+}
+
+<button
+  className="glamor-0 glamor-1"
+  disabled={true}
+  onClick={[Function]}
+>
+  Exchange
+</button>
+`;

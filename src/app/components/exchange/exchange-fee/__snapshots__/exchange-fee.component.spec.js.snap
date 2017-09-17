@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Exchange fee component renders exchange fee 1`] = `
+.glamor-1 {
+  font-size: 12px;
+  color: #b1b1b1;
+  font-family: Arial;
+}
+
+.glamor-1 span {
+  font-size: 10px;
+}
+
+.glamor-1 i:hover {
+  cursor: pointer;
+}
+
+<p
+  className="glamor-0 glamor-1"
+>
+  Inc. fee: 
+  <span>
+    $
+  </span>
+  50
+   
+  <i
+    aria-hidden="true"
+    className="fa fa-info-circle"
+    onClick={[Function]}
+  />
+</p>
+`;
+
+exports[`Exchange fee component renders null when fee is zero 1`] = `null`;

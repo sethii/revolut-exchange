@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Currency select component renders currency select 1`] = `
+.glamor-1 {
+  height: 43px;
+  width: 80px;
+  outline: none;
+}
+
+<select
+  className="glamor-0 glamor-1"
+  onChange={[Function]}
+  value={1}
+>
+  <option
+    value={0}
+  >
+    USD
+  </option>
+  <option
+    value={1}
+  >
+    PLN
+  </option>
+</select>
+`;

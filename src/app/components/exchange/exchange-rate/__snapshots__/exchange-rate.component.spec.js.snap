@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Exchange rate component renders exchange rate 1`] = `
+.glamor-1 {
+  font-size: 16px;
+  color: #048bf2;
+  border-radius: 20px;
+  border: 2px solid #efefef;
+  position: absolute;
+  padding: 5px 20px;
+  top: calc(50% - 16px);
+  left: calc(50% - 60px);
+  margin: 0px;
+}
+
+.glamor-1 span {
+  font-size: 12px;
+}
+
+<p
+  className="glamor-0 glamor-1"
+>
+  <span>
+    $
+  </span>
+  1 = 
+  <span>
+    €
+  </span>
+  0.12
+  <span>
+    33
+  </span>
+</p>
+`;

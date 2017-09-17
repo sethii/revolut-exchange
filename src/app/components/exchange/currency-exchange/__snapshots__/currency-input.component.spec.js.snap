@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Currency input component renders currency input 1`] = `
+.glamor-1 {
+  outline: none;
+  border: none;
+  padding: 10px 0px;
+  font-size: 20px;
+  text-align: right;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+}
+
+.glamor-1 ::-moz-selection {
+  background: transparent;
+}
+
+.glamor-1 ::selection {
+  background: transparent;
+}
+
+<input
+  className="glamor-0 glamor-1"
+  onChange={[Function]}
+  onKeyDown={[Function]}
+  placeholder="0"
+  type="text"
+  value="+1234"
+/>
+`;
